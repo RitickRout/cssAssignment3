@@ -1,0 +1,109 @@
+.welcome{
+    border:5px solid red;
+    display: inline-block;
+    padding:20px 100px 20px;
+    text-align: center;
+    position: relative;
+    right:-555px;
+    font-weight: bolder;
+    color: red;
+   border-radius: 30px;
+   background-color: whitesmoke;
+}
+.left-box{
+    border:4px solid red;
+    padding:100px 55px 100px;
+    display: inline-block;
+    border-radius: 25px;
+    margin-top: 25px;
+    text-align: center;
+    float:left;
+    background-color: pink;
+    
+}
+.right-box{
+    float: right;
+    border: 4px solid red;
+    border-radius: 30px;
+    padding:50px ;
+    margin-top: 25px;
+    background-color: pink;
+}
+.fixed-box{
+    border:4px solid red;
+    display:inline-block;
+    position: fixed;
+    left:520px;
+    height:130px;
+    width:500px;
+    text-align: center;
+    padding-top: 60px;
+    border-radius: 50px;
+    margin-top: 375px;
+    background-color: yellow;
+}
+.left-box1{
+    border: 4px solid red;
+    display: inline-block;
+    margin-top:500px;
+    height:200px;
+    width:300px;
+    padding-top: 30px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: pink;
+   
+}
+.left{
+    position: absolute;
+    left:10px;
+}
+.right{
+ position: absolute;
+ right:10px;
+}
+.middle-section {
+    border:3px solid red;
+    height: 800px;
+}
+body{
+    margin:0px;
+    background-image: url(https://images.unsplash.com/photo-1506617420156-8e4536971650?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3JvY2VyeXxlbnwwfHwwfHw%3D&w=1000&q=80);
+    
+
+}
+.flex-box{
+    display: flex;
+    flex-flow: column wrap;
+    width:821px;
+    height:500px;
+    text-align: center;
+   
+
+}
+.flex-items{
+    background-color: skyblue;
+    height:245px;
+    width:400px;
+    border:4px solid;
+}
+.heading{
+    text-align: center;
+}
+.box{
+    background-color: pink;
+    height: 521px;
+    width: 818px;
+    margin-left: 345px;
+    margin-top: 1cm;
+    border:4px solid skyblue;
+   
+
+}
+.other-items{
+    width: 807px;
+    height: 196px;
+    margin-top: 251px;
+    margin-left: -817px;
+
+}
